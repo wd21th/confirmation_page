@@ -60,6 +60,7 @@ main > div {
 }
 
 .company_logo img{
+    margin-top: 25px;
     width: 145px;
     height: 40px;
 }
