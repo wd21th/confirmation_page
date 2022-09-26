@@ -13,6 +13,8 @@ body {
 .wrapper {
   display: flex;
   flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 40px;
   /* justify-content: center; */
 }
 
