@@ -16,6 +16,10 @@ body {
   justify-content: center;
 }
 
+main {
+  margin: auto 0;
+}
+
 main > div {
     margin-bottom: 25px;
 }
