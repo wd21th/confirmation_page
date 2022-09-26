@@ -1,5 +1,7 @@
 body {
     background: #EBEFF7;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .full {
@@ -102,7 +104,8 @@ margin-right: 20px;
 .event-information {
     border-collapse:separate;
     border-spacing: 0 35px;
-    width: 730px;
+    /* width: 730px; */
+    width: 100%;
 }
 
 .field_title {
