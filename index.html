@@ -38,22 +38,22 @@
                     </tr>
                     <tr>
                         <td><b class="field_title">Номер телефона:</b></td>
-                        <td><span class="field_value">+998874563214</span></td>
+                        <td><span id="phone_number" class="field_value"></span></td>
                     </tr>
                 </tbody>
             </table>
             <div class="ncds892">
                 <div class="row-reverse slim_width constraint-v">
-                    <input class="real_checkbox" type="checkbox" id="field.field_id" v-model="field.value">
-                    <label for="field.field_id" class="slim_height cnas218">Даю согласие на выставления счета в Click</label>
-                    <label class="ncrm-checkbox jcd12" for="field.field_id">
+                    <input class="real_checkbox" type="checkbox" id="confirm"/>
+                    <label for="confirm" class="slim_height cnas218">Даю согласие на выставления счета в Click</label>
+                    <label class="ncrm-checkbox jcd12" for="confirm">
                       <img src="./images/check_mark.svg" class="ncrm-checkbox-mark">
                     </label>
                 </div>
             </div>
 
             <div class="action-buttons constraint-h">
-                <button class="submit_button">
+                <button class="submit_button disabled">
                     Участвовать
                 </button>
                 <button class="cancel_button">
