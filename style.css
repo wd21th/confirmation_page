@@ -42,6 +42,11 @@ main > div {
     padding-bottom: 35px;
     background: rgb(255, 255, 255, 0.6);
     border-radius: 10px;
+    max-width: 730px;
+}
+
+.indent_center {
+  margin: 0 auto;
 }
 
 .slim_height {
@@ -104,7 +109,6 @@ main > div {
 .event-information {
     border-collapse:separate;
     border-spacing: 0 35px;
-    /* width: 730px; */
     width: 100%;
 }
 
@@ -976,47 +980,6 @@ input[type="checkbox"] #box {
     }
   }
 
-  @media screen and (max-width: 1000px) {
-    /* .header{
-      width: 90%;
-    } */
-    .crm-form{
-      /* width: 85%; */
-      width: 100% !important;
-    }
-
-    .content.right_header .site-form-header {
-      width: 50%;
-    }
-
-    .content.right_header .site-form-header h2 {
-      white-space: normal;
-    }
-
-    .content.right_header form {
-      width: 50%;
-    }
-    .dialog-content {
-      width: 100%;
-    }
-
-  }
-  /* @media screen and (max-width: 400px) {
-    .header{
-      
-    }
-    .crm-form{
-      width: 80%;
-    }
-  } */
-  /* @media screen and (max-width: 300px) {
-    .header{
-      
-    }
-    .crm-form{
-      width: 70%;
-    }
-  } */
 
   .italics {
     font-style: italic;
