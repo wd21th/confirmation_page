@@ -11,7 +11,7 @@ window.addEventListener("load", function() {
     var submit_button = document.querySelector(".submit_button");
     submit_button.addEventListener("click", async function() {
         // send post request to create lead
-       await fetch(`http://apps.ummed.ncrm.kz/form/pub/api/v1/widgets/form/create-lead/${uid}/`, {
+     /*   await fetch(`http://apps.ummed.ncrm.kz/form/pub/api/v1/widgets/form/create-lead/${uid}/`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
@@ -23,9 +23,9 @@ window.addEventListener("load", function() {
             return response.json();
         }).then(function(data) {
             // redirect to thank you page
-            window.location.href = "thank_you.html";
-            console.log(data);
-        });
+        }); */
+        window.location.href = "thank_you.html";
+        console.log(data);
     })
     
     
