@@ -5,13 +5,6 @@ submit_button.addEventListener("click", function() {
     window.location.href = "thank_you.html";
 })
 
-var cancel_button = document.querySelector(".cancel_button");
-
-cancel_button.addEventListener("click", function() {
-    //  close window
-    window.close();
-})
-
 var confirm = document.querySelector("input#confirm");
 console.log('confirm :', confirm);
 
