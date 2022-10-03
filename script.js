@@ -1,5 +1,6 @@
-const API = 'http://192.168.6.249:8000/api/v1/widgets/form'
-const CRM_ID = 67
+const API = 'https://apps.uzbcrm.uz/form/pub/api/v1/widgets/form/'
+const CRM_ID = 22
+const FIELD_ID = 35
 // add event when window is loaded
 window.addEventListener("load", function() {
     const params = new URLSearchParams(window.location.search)
@@ -24,16 +25,12 @@ window.addEventListener("load", function() {
                 "phone": phone_number,
                 custom_values: [
                     {
-                        "field": 988,
+                        "field": FIELD_ID,
                         "value": 'Согласен',
                     }
                 ]
             } )
-        }).then(function(response) {
-            return response.json();
         }).then(function(data) {
-            console.log('data :', data);
-            // redirect to thank you page
             window.location.href = "thank_you.html";
         });
         
