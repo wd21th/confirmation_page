@@ -1,6 +1,6 @@
 const API = 'https://apps.uzbcrm.uz/form/pub/api/v1/widgets/form/'
-const CRM_ID = 22
-const FIELD_ID = 35
+const CRM_ID = 41
+const FIELD_ID = 36
 // add event when window is loaded
 window.addEventListener("load", function() {
     const params = new URLSearchParams(window.location.search)
@@ -31,7 +31,7 @@ window.addEventListener("load", function() {
                 ]
             } )
         }).then(function(data) {
-            window.location.href = "thank_you.html";
+            window.location.href = "https://uzbcrm.uz/thankyou/";
         });
         
     })
